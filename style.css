@@ -1,0 +1,279 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    
+}
+
+.header {
+    position: relative;
+}
+
+.center {
+    align-items: center;
+    text-align: center;
+    margin-top: -250px;
+}
+
+.center2{
+    align-items: center;
+    text-align: center;
+    margin-top: 195px;
+    margin-bottom: 90px;
+}
+
+.img-background {
+    width: 100%;
+    margin: auto;
+}
+
+.headline {
+    color: hsl(210, 10%, 33%);
+}
+
+.parag {
+    color: gray;
+}
+
+.left {
+    background-color: hsl(171, 66%, 44%);
+    color: white;
+    border: none;
+    border-radius: 15px;
+    width: 140px;
+    height: 40px;
+}
+
+.right {
+    background-color: hsl(233, 100%, 69%);
+    color: white;
+    border: none;
+    border-radius: 15px;
+    width: 140px;
+    height: 40px;
+    margin-top: 30px;
+}
+
+.tv {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.logos {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-left: 195px;
+    align-content: space-between;
+}
+
+.one {
+    margin-right: 10px;
+}
+
+.two {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.logoimg {
+    display: flex;
+    margin-left: 50px;
+    margin-bottom: 40px;
+    margin-top: 110px;
+
+}
+
+.img01 {
+    margin-right: 45px;
+}
+.img02 {
+    margin-left: 45px;
+    margin-right: 85px;
+}
+
+.img03 {
+    margin-left: 45px;
+    margin-right: 85px;
+}
+
+.img04 {
+    margin-left: 45px;
+    margin-right: 85px;
+}
+.headline3 {
+    color: hsl(210, 10%, 33%);
+
+}
+
+.headline90 {
+    color: hsl(210, 10%, 33%);
+
+}
+.parag90 {
+    color: hsl(210, 10%, 33%);
+
+}
+
+.parag3 {
+    color: hsl(210, 10%, 33%);
+
+}
+
+
+.img05 {
+    margin-left: 45px;
+}
+.headline2 {
+    color: hsl(210, 10%, 33%);
+
+}
+
+.footer1 {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin auto;
+    width: 100%;
+    background-color: rgb(179, 179, 179);
+}
+
+.logo02 {
+    width: 40px;
+    height: 80px;
+    margin-left: 270px;
+}
+
+.footer-head {
+    color: rgb(78, 59, 59);
+    font-size: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+@media (max-width: 700px) {
+    .container {
+        width: 340px;
+        margin: 0;
+    }    
+    .img-background {
+        display: none;
+    }
+    .header1 {
+        width: 470px;
+    }
+    .center {
+        margin-top: 10px;
+   }
+   .center2 {
+        margin-left: 130px;
+   }
+   .img20 {
+    width: 325px;
+    margin-bottom: 80px;
+    margin-left: 65px;
+   }
+   .tv {
+    display: grid;
+    grid-template-columns: auto;
+   }
+   .headline {
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    font-size: 20px;
+
+   }
+
+   .headline2{
+    text-align: center;
+    align-items: center;
+
+   }
+   .parag {
+    text-align: center;
+    align-items: center;
+    margin: auto;
+
+
+   }
+   .img30 {
+    width: 345px;
+    margin-bottom: 80px;
+    margin-left: -70px;
+    margin-top: 50px;
+   }
+   .logos {
+    display: grid;
+    grid-template-columns: auto;
+    margin-left: 60px;
+}
+    .one {
+        margin-right: -10px;
+    }
+    .logoimg {
+        display: grid;
+        grid-template-columns: auto;
+        margin-left: 90px;
+    }
+    .footer1 {
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    .img80 {
+        margin-left: 60px;
+    }
+    .img01 {
+       margin-left: 85px;
+       margin-bottom: 20px;
+    }
+    .img02 {
+        margin-left: 85px;
+        margin-bottom: 40px;
+
+
+    }
+    .img03 {
+        margin-left: 85px;
+        margin-bottom: 40px;
+
+    }
+    .img04 {
+        margin-left: 85px;
+        margin-bottom: 40px;
+
+    }
+    .img05 {
+        margin-left: 85px;
+        margin-bottom: 40px;
+
+    }
+    .logo02 {
+        width: 30px;
+        height: 30px;
+        margin: auto;
+    }
+    .headline3{
+        margin-left: 90px;
+        text-align: center;
+
+    }
+
+    .parag3 {
+        margin-left: 90px;
+        text-align: center;
+
+    }
+    .headline90 {
+        margin-left: 60px;
+
+    }
+    .parag90 {
+        margin-left: 60px;
+    }
+
+   
+    }
